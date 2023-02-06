@@ -5,6 +5,7 @@
 #include <conio.h> // необходим для работы _getch();
 using namespace std;
 int main()
+/* Программа является учебной */
 {
 	  int a, b;
 	  setlocale(LC_ALL,"Russian");
@@ -14,5 +15,6 @@ int main()
          cin >> b;
 	    cout << "A + B = " << a + b << '\n';
 		cout << "A - B = " << a - b << '\n';
+		cout << "A / B = " << a / b << '\n';
 _getch();
 } 
