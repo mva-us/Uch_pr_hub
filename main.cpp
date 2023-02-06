@@ -1,6 +1,8 @@
-#include <stdio.h> 
-#include <iostream> 
-#include <conio.h>
+/* СЛОЖЕНИЕ, ВЫЧИТАНИЕ ДВУХ ЦЕЛЫХ ЧИСЕЛ */
+/* подключаемый заголовочный файл */
+#include <stdio.h> //
+#include <iostream> // объявляет объекты cout, cin
+#include <conio.h> // необходим для работы _getch();
 using namespace std;
 /* Программа является учебной */
 int main()
@@ -12,5 +14,6 @@ int main()
 	    cout << "Введите b: ";
          cin >> b;
 	    cout << "A + B = " << a + b << '\n';
+		cout << "A - B = " << a - b << '\n';
 _getch();
 } 
