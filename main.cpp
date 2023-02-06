@@ -4,6 +4,7 @@
 #include <iostream> // объявляет объекты cout, cin
 #include <conio.h> // необходим для работы _getch();
 using namespace std;
+/* Программа является учебной */
 int main()
 {
 	  int a, b;
