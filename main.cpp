@@ -5,7 +5,6 @@
 #include <conio.h> // необходим для работы _getch();
 using namespace std;
 int main()
-/* Программа является учебной */
 {
 	  int a, b;
 	  setlocale(LC_ALL,"Russian");
