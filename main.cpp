@@ -15,5 +15,6 @@ int main()
          cin >> b;
 	    cout << "A + B = " << a + b << '\n';
 		cout << "A - B = " << a - b << '\n';
+		cout << "A * B = " << a * b << '\n';
 _getch();
 } 
